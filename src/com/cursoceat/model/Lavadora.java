@@ -5,12 +5,13 @@ public class Lavadora extends Electrodomestico {
 	protected double precio;
 	protected boolean aguaCaliente;
 
-public Lavadora(String tipo, String marca, double potencia, double precio, boolean aguaCaliente) {
-		super(tipo, marca, potencia);
+public Lavadora( String marca, double potencia, double precio, boolean aguaCaliente) {
+		super( marca, potencia);
 		this.precio = precio;
 		this.aguaCaliente = aguaCaliente;
 		this.aguaCaliente = false;
 	}
+
 
 public Lavadora() {
 	

@@ -18,6 +18,13 @@ public Electrodomestico() {
 	
 }
 
+
+public Electrodomestico(String marca, double potencia) {
+
+	this.marca = marca;
+	this.potencia = potencia;
+}
+
 public String getTipo() {
 	return tipo;
 }

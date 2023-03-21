@@ -12,7 +12,7 @@ static Scanner entrada = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-Electrodomestico miElectrodomestico = new Electrodomestico("Nevera", "Samsung",0.35);
+Electrodomestico miElectrodomestico  = new Electrodomestico("Nevera", "Samsung",0.35);
 Electrodomestico miElectrodomestico2 = new Electrodomestico("Horno", "LG", 2.2);
 
 //OBJETO 1
@@ -36,7 +36,7 @@ System.out.printf("El consumo de Kw de su "+ miElectrodomestico2.getTipo()+" ha 
 System.out.println("\nEl precio total a pagar es: "+ miElectrodomestico2.getCosteConsumo(horas)+ " €");
 
 //OBJETO 3 DE SUBCLASE
-Lavadora miLavadora = new Lavadora("Lavadora", "Delonghi",2.2 ,600 , false);
+Lavadora miLavadora = new Lavadora( "Delonghi",2.2 ,600 , false);
 
 System.out.println(miLavadora.toString());
 
