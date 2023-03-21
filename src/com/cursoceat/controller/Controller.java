@@ -43,7 +43,7 @@ System.out.println(miLavadora.toString());
 System.out.println("¿Cuántas horas ha consumido su Lavadora?");	
 horas = entrada.nextInt();
 
-System.out.printf("El consumo de Kw de su "+ miLavadora.getTipo()+" ha sido: %.2f KW" ,miLavadora.getConsumo(horas));
+System.out.printf("El consumo de Kw de su Lavadora ha sido: %.2f KW" ,miLavadora.getConsumo(horas));
 
 System.out.println("\nEl precio total a pagar es: "+ miLavadora.getCosteConsumo(horas)+ " €");
 
