@@ -40,7 +40,7 @@ Lavadora miLavadora = new Lavadora( "Delonghi",2.2 ,600 , false);
 
 System.out.println(miLavadora.toString());
 
-System.out.println("¿Cuántas horas ha consumido su "+ miLavadora.getTipo()+"?");	
+System.out.println("¿Cuántas horas ha consumido su Lavadora?");	
 horas = entrada.nextInt();
 
 System.out.printf("El consumo de Kw de su "+ miLavadora.getTipo()+" ha sido: %.2f KW" ,miLavadora.getConsumo(horas));
